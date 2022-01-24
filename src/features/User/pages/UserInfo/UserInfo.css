@@ -1,0 +1,76 @@
+.user-info__left {
+  padding-top: 16px;
+  background-color: white;
+}
+
+.user-info__img {
+  display: block;
+  width: 200px;
+  margin: auto;
+
+  border-radius: 4px;
+  object-fit: contain;
+}
+/*------------------- Modal -------------*/
+.modal-change-image {
+  display: none;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+}
+
+.modal-change-image .modal-container {
+  width: 900px;
+  max-width: calc(100% - 32px);
+  min-height: 200px;
+
+  background: #fff;
+  position: absolute;
+  top: 100px;
+  animation: modalFadeIn ease 0.4s;
+}
+
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-file input[type="file"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background: white;
+  cursor: inherit;
+  display: block;
+}
+
+/* UserInfo */
+.user-info__body-head {
+  font-size: 2.6rem;
+  font-weight: 500;
+}
+
+.user-info__body-info {
+  margin-top: 25px;
+
+  font-size: 1.6rem;
+}
+
+.user-info__group {
+  display: flex;
+  padding: 10px 0;
+}
+
+.user-info__label {
+  min-width: 200px;
+  font-weight: 500;
+}

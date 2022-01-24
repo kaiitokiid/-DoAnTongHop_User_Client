@@ -1,0 +1,117 @@
+.payment-title {
+  margin-top: 30px;
+  font-size: 2rem;
+}
+
+.payment-group {
+  margin-top: 10px;
+  padding: 24px 80px;
+
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+}
+
+.payment-menu-sub {
+  padding: 6px 80px;
+}
+
+.payment-footer {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.8rem;
+}
+
+.payment-footer__label {
+  margin-right: 15px;
+  font-weight: 500;
+}
+
+.payment-footer__total-price {
+  font-weight: 500;
+  color: tomato;
+}
+
+.payment__radio-group {
+  display: flex;
+  align-items: center;
+}
+
+.payment-radio {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+  transform: scale(1.5);
+}
+
+.payment-img {
+  width: 40px;
+  margin: 0 16px;
+}
+
+.payment__radio-label {
+  font-size: 1.8rem;
+}
+/* 
+useEffect(() => {
+    axios.get('https://api.mysupership.vn/v1/partner/areas/province', {})
+    .then(res => {
+        console.log(res.data);
+        if(res.data.status === 'Success') {
+            const data = res.data.results.map((item) => {
+                return { 
+                    id: item.code,
+                    name: item.name,
+                }
+            })
+
+            setProvinces(data);
+        }
+
+    })
+    .catch(err => {
+        console.log(err);
+    })
+}, [])
+
+useEffect(() => {
+    const provinceId = 555;
+    axios.get(`https://api.mysupership.vn/v1/partner/areas/district?province=${provinceId}`, {})
+    .then(res => {
+        console.log("district", res.data);
+        if(res.data.status === 'Success') {
+            const data = res.data.results.map((item) => {
+                return { 
+                    id: item.code,
+                    name: item.name,
+                }
+            })
+
+            setDistricts(data);
+        }
+
+    })
+    .catch(err => {
+        console.log(err);
+    })
+}, [])
+
+useEffect(() => {
+    const districtId = 24567;
+    axios.get(`https://api.mysupership.vn/v1/partner/areas/commune?district=${districtId}`, {})
+    .then(res => {
+        console.log("ward", res.data);
+        if(res.data.status === 'Success') {
+            const data = res.data.results.map((item) => {
+                return { 
+                    id: item.code,
+                    name: item.name,
+                }
+            })
+
+            setWards(data);
+        }
+
+    })
+    .catch(err => {
+        console.log(err);
+    })
+}, []) */

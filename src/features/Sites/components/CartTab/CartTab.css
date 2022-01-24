@@ -1,0 +1,104 @@
+.cart-sub {
+  margin-top: 20px;
+  padding: 4px 0 4px 24px;
+  background: var(--white-color);
+}
+
+.total {
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 345px;
+
+  border-radius: 4px;
+
+  position: fixed;
+}
+
+.total-price {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  background: white;
+}
+
+.total-price__label {
+  font-size: 2rem;
+}
+
+.total-price__price {
+  font-size: 2.2rem;
+  color: tomato;
+}
+
+.cart-tab {
+  margin-top: 15px;
+  padding: 24px 0 0 24px;
+
+  background: var(--white-color);
+  border-radius: 4px;
+}
+
+.check-box {
+  width: 18px;
+  height: 18px;
+  margin-right: 12px;
+}
+
+.cart-tab-header {
+  display: flex;
+  align-items: center;
+  padding-bottom: 18px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.cart-tab-header__shop-icon {
+  margin-right: 4px;
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+
+.cart-tab-header__shop-name {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.cart-item-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 1.6rem;
+}
+
+.cart-item-img {
+  width: 80px;
+  object-fit: contain;
+}
+
+.cart-item-name {
+  width: 400px;
+  padding-left: 8px;
+}
+
+.cart-item-price {
+  width: 150px;
+  text-align: right;
+}
+
+.cart-item-quantity {
+  width: 120px;
+  text-align: right;
+}
+
+.cart-item-delete {
+  width: 20px;
+  text-align: right;
+}
+
+.cart-item-delete:hover {
+  color: red;
+  cursor: pointer;
+}

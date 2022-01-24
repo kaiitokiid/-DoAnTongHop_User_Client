@@ -1,0 +1,47 @@
+.shop-header {
+  padding: 40px 40px 0 40px;
+  margin-top: -20px;
+  height: 200px;
+}
+
+.shop-header__img {
+  width: 100px;
+}
+
+.shop-header__shop-name {
+  padding-top: 70px;
+  padding-left: 20px;
+  font-size: 3.8rem;
+  font-weight: 500;
+}
+
+.shop-header__contact {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.shop-header__contact-item {
+  margin-right: 10px;
+  font-size: 1.6rem;
+}
+
+.strong {
+  font-weight: 600;
+}
+
+.mt-100 {
+  margin-top: 100px;
+}
+
+.mb-250 {
+  margin-bottom: 250px;
+}
+
+.shop-input {
+  height: 22px;
+  width: 200px;
+  padding: 0 6px;
+
+  font-size: 1.2rem;
+}

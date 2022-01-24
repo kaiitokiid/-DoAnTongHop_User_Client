@@ -1,0 +1,13 @@
+.shop-item__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shop-item__img1 {
+  width: 160px !important;
+}
+
+.shop-item__name {
+  font-size: 1.6rem;
+}

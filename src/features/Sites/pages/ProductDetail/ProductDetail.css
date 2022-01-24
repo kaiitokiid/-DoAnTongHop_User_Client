@@ -1,0 +1,127 @@
+.product-detail__image {
+  border-right: 1px solid #ccc;
+  background-color: #cccccc15;
+}
+
+.product-detail {
+  background-color: #cccccc15;
+}
+
+.product-detail__block {
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.product-detail__info-name {
+  margin-bottom: 10px;
+  margin-top: -10px;
+
+  display: block;
+  color: var(--primary-color);
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 3.4rem;
+}
+
+.product-detail__info-price {
+  display: block;
+  font-size: 2rem;
+  font-weight: 500;
+  color: tomato;
+}
+
+.product-detail__group {
+  font-size: 1.6rem;
+}
+
+.product-detail__label {
+  display: inline-block;
+  width: 110px;
+
+  font-weight: 600;
+}
+
+.product-detail__value {
+  display: block;
+  margin: 10px 0 20px;
+}
+
+.product-detail__group:last-child .product-detail__value {
+  margin-bottom: 0;
+}
+
+.product-detail__stock {
+  font-weight: 600;
+  color: tomato;
+}
+
+.product-detail__shop {
+  padding: 16px 24px;
+  background-color: #cccccc15;
+}
+
+.product-detail__shop-title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.product-detail__shop-title h2 {
+  font-size: 2rem;
+}
+
+.product-detail__shop-top {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.product-detail__shop-image {
+  width: 80px;
+  margin-right: 10px;
+}
+
+.product-detail__shop-name {
+  margin-top: 10px;
+  font-size: 2rem;
+  line-height: 2.4rem;
+  font-weight: 500;
+}
+
+.product-detail__shop-group {
+  margin-bottom: 12px;
+  font-size: 1.6rem;
+}
+
+.product-detail__shop-label {
+  margin-right: 8px;
+  font-weight: 500;
+}
+
+.product-detail__shop-btn {
+  margin-top: 15px;
+  padding: 0 80px;
+}
+
+.btn-add-cart {
+  margin: 0 0px;
+  padding: 0 8px;
+
+  border: 1px solid var(--border-color);
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+.quantity-add-cart {
+  padding: 0 8px;
+  width: 50px;
+  height: 26px;
+
+  font-size: 1.8rem;
+  border: 1px solid var(--border-color);
+  user-select: none;
+}
+
+.product-detail__desc {
+  line-height: 1.8rem;
+  text-align: justify;
+}

@@ -1,0 +1,19 @@
+.notfound-container {
+  height: 560px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+
+.notfound-container span {
+  padding-top: 10px;
+  font-size: 15pt;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.notfound-container span:hover {
+  color: var(--primary-color);
+}

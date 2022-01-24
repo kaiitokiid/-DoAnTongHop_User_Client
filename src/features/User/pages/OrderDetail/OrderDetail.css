@@ -1,0 +1,13 @@
+.product-table__img {
+  display: block;
+  margin: auto;
+  width: 100px;
+}
+
+.mb-20 {
+  margin-bottom: 20px !important;
+}
+
+.mb-10 {
+  margin-bottom: 10px !important;
+}

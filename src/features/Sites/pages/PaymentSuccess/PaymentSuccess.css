@@ -1,0 +1,30 @@
+.payment-success {
+  padding: 100px 0 350px;
+  text-align: center;
+}
+
+.payment-success__head {
+  padding: 0;
+  margin-bottom: 24px;
+  font-size: 3rem;
+}
+
+.payment-success__mid {
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.payment-success__bot {
+  font-size: 2rem;
+}
+
+.payment-success__bot:hover {
+  font-size: 2rem;
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.tome {
+  font-weight: 600;
+  color: var(--primary-color);
+}

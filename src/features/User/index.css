@@ -1,0 +1,32 @@
+.user-info__btn-block {
+  padding: 0 69px;
+}
+
+.user-info__nav {
+  margin-top: 10px;
+}
+
+.user-info__nav-items {
+  list-style-type: none;
+  font-size: 1.6rem;
+}
+
+.user-info__nav-items a {
+  display: inline-block;
+
+  width: 100%;
+  padding: 12px 0px;
+  padding-left: 69px;
+
+  color: black;
+  text-decoration: none;
+}
+
+.user-info__nav-items:hover {
+  background: #cccccc99;
+}
+
+.user-info__body {
+  padding: 25px 0 25px 40px;
+  background-color: white;
+}
